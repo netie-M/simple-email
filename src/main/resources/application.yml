@@ -1,0 +1,11 @@
+server:
+  port: 1465
+  servlet:
+    context-path: /email
+
+spring:
+  application:
+    name: email
+  profiles:
+    active:
+      - dev

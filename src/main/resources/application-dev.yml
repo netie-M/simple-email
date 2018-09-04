@@ -1,0 +1,15 @@
+spring:
+  mail:
+    default-encoding: UTF-8
+    test-connection: true
+    protocol: smtp
+    host: smtp.qq.com
+    port: 465
+    username: 641561971@qq.com
+    password: zbxjucdwghfgbfei
+    properties:
+      mail:
+        smtp:
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+          from: 641561971@qq.com
